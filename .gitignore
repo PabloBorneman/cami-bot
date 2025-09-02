@@ -1,5 +1,6 @@
-node_modules
-whatsapp-session*.json
-package-lock.json
-downloaded-media/
-.wwebjs_auth
+@"
+node_modules/
+.env
+.wwebjs_auth/
+.wwebjs_cache/
+"@ | Out-File -Encoding utf8 .gitignore

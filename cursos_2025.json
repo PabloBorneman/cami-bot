@@ -1,0 +1,486 @@
+[
+  {
+    "id": 1,
+    "titulo": "Albañilería Básica para Mujeres",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-07-19",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/albanileria_basica_mujeres_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 2,
+    "titulo": "Ayudante de Panadería",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-07-17",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/ayudante_panaderia_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 3,
+    "titulo": "Peluquería y Barbería Profesional",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-12-31",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/peluqueria_barberia_2025.webp",
+    "estado": "en_curso"
+  },
+  {
+    "id": 4,
+    "titulo": "Moldería y Confección de Vestimenta Colonial",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-09-10",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/molderia_colonial_2025.webp",
+    "estado": "en_curso"
+  },
+  {
+    "id": 5,
+    "titulo": "Indumentaria para Mascotas",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-07-21",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/indumentaria_mascotas_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 6,
+    "titulo": "Indumentaria Canina",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-09-30",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/indumentaria_canina_2025.webp",
+    "estado": "en_curso"
+  },
+  {
+    "id": 7,
+    "titulo": "Taller de Flores Textil",
+    "descripcion_breve": "Aprende a crear flores textiles engomadas para ramos, tocados, apliques decorativos y más.",
+    "descripcion_completa": "Este taller enseña a transformar tela común en flores textiles engomadas resistentes y delicadas. Se abordará el proceso de engomado, corte, modelado y armado de flores para diferentes usos creativos y decorativos. Está destinado a jóvenes y adultos, con o sin experiencia, que quieran desarrollar una actividad artesanal con fines personales, ornamentales o comerciales.",
+    "actividades": "Engomar diferentes tipos de tela, cortar pétalos y hojas con moldes, modelar con herramientas simples, armar flores individuales y composiciones como ramos, tocados, apliques y accesorios textiles. Proyecto final: pieza terminada realizada por cada participante.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-10-01",
+    "fecha_fin": "2025-11-30",
+    "frecuencia_semanal": 3,
+    "duracion_clase_horas": [
+      3
+    ],
+    "dias_horarios": [
+      "Lunes de 15:00 a 18:00",
+      "Martes de 15:00 a 18:00",
+      "Miércoles de 15:00 a 18:00"
+    ],
+    "localidades": [
+      "San Salvador de Jujuy",
+      "Localidades que lo requieran"
+    ],
+    "direcciones": [
+      "San Salvador de Jujuy – Dirección a confirmar",
+      "Otras localidades según requerimiento"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Tela de algodón (ej. lienzo)",
+        "Tijera",
+        "Regla",
+        "Cuaderno",
+        "Lapicera",
+        "Silicona en barra",
+        "Pistolita de silicona"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://forms.gle/link-inscripcion-flores-textil",
+    "imagen": "assets/img/cursos2025/flores_textil_2025.webp",
+    "estado": "inscripcion_abierta"
+  },
+  {
+    "id": 8,
+    "titulo": "Sublimación Artesanal",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-09-30",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/sublimacion_artesanal_2025.webp",
+    "estado": "en_curso"
+  },
+  {
+    "id": 9,
+    "titulo": "Tejido Artesanal: Dos Agujas y Crochet",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-05-31",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/tejido_artesanal_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 10,
+    "titulo": "Marroquinería Funcional para Mascotas",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-07-04",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/marroquineria_mascotas_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 11,
+    "titulo": "Técnico en Reparación de Celulares – Nivel Inicial",
+    "descripcion_breve": "Aprende a reparar celulares Android multimarca, desde diagnóstico hasta cambio de módulos, pines y baterías.",
+    "descripcion_completa": "Curso orientado a quienes deseen iniciarse en la reparación de celulares Android multimarca. Incluye diagnóstico de fallas, micro soldadura, mediciones con multímetro, cambio de módulos, pines y baterías, uso y manipulación de herramientas, diferencias en calidad de repuestos, y nociones de marketing y administración del negocio. Se brindan bases de microelectrónica y funcionamiento de componentes en la placa.",
+    "actividades": "Prácticas de reparación aplicando lo aprendido en clase, trabajos prácticos corregidos en clase siguiente, evaluaciones para afianzar conocimientos. Los alumnos que aprueben podrán pasar al siguiente nivel.",
+    "duracion_total": "1 mes",
+    "fecha_inicio": "",
+    "fecha_fin": "",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [
+      4
+    ],
+    "dias_horarios": [
+      "Jueves de 13:00 a 17:00"
+    ],
+    "localidades": [
+      "San Salvador de Jujuy"
+    ],
+    "direcciones": [
+      "Necochea 465, Local 5 – San Salvador de Jujuy"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": [
+        "Sin conocimientos previos en electrónica"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Celulares a reparar",
+        "Lapicera",
+        "Cuadernillo"
+      ],
+      "entrega_curso": [
+        "Cartilla con el desarrollo de cada clase"
+      ]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-reparacion-celulares",
+    "imagen": "assets/img/cursos2025/reparacion_celulares_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 12,
+    "titulo": "Albañilería para Mujeres – Prácticas en Obra",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-07-19",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/albanileria_mujeres_practicas_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 13,
+    "titulo": "Panadería Artesanal",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-07-17",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/panaderia_artesanal_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 14,
+    "titulo": "Cocina Regional",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-07-18",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/cocina_regional_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 15,
+    "titulo": "Ayudante de Cocina con Orientación en Hotelería",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-09-25",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/ayudante_cocina_hoteleria_2025.webp",
+    "estado": "en_curso"
+  },
+  {
+    "id": 16,
+    "titulo": "Barbería",
+    "descripcion_breve": "",
+    "descripcion_completa": "",
+    "actividades": "",
+    "duracion_total": "",
+    "fecha_inicio": "",
+    "fecha_fin": "2025-07-22",
+    "frecuencia_semanal": 0,
+    "duracion_clase_horas": [],
+    "dias_horarios": [],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/barberia_observatorio_2025.webp",
+    "estado": "finalizado"
+  }
+]
