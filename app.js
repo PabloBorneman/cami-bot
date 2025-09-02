@@ -40,7 +40,7 @@ const PRELAUNCH_MSG_WSP =
   "¡Gracias por tu interés! 😊\n" +
   "Las respuestas del asistente *Camila* estarán disponibles a partir del *5 de septiembre de 2025* (lanzamiento oficial).\n" +
   "El *bot de WhatsApp* y los *links de inscripción* también se habilitarán en esa fecha.\n" +
-  "Mientras tanto, podés explorar la información general del sitio web : https://academiadeoficios.jujuy.gob.ar/ . 🙌";
+  "Mientras tanto, podés explorar la información general del sitio web : https://academiadeoficios.jujuy.gob.ar/.🙌";
 
 /*──────────────────────────────────────────────────────────────────────
  1) Express + Socket.IO
