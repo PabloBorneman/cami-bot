@@ -2,169 +2,31 @@
   {
     "id": 1,
     "titulo": "Albañilería Básica para Mujeres",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-07-19",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/albanileria_basica_mujeres_2025.webp",
     "estado": "finalizado"
   },
   {
     "id": 2,
     "titulo": "Ayudante de Panadería",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-07-17",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/ayudante_panaderia_2025.webp",
     "estado": "finalizado"
   },
   {
     "id": 3,
-    "titulo": "Peluquería y Barbería Profesional",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-12-31",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/peluqueria_barberia_2025.webp",
-    "estado": "en_curso"
+    "titulo": "Peluquería y Barbería Básica",
+    "estado": "finalizado"
   },
   {
     "id": 4,
-    "titulo": "Moldería y Confección de Vestimenta Colonial",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-09-10",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/molderia_colonial_2025.webp",
+    "titulo": "Corte y confección de disfraces para etapa escolar",
     "estado": "en_curso"
   },
   {
     "id": 5,
     "titulo": "Indumentaria para Mascotas",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-07-21",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/indumentaria_mascotas_2025.webp",
     "estado": "finalizado"
   },
   {
     "id": 6,
     "titulo": "Indumentaria Canina",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-09-30",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/indumentaria_canina_2025.webp",
     "estado": "en_curso"
   },
   {
@@ -186,12 +48,10 @@
       "Miércoles de 15:00 a 18:00"
     ],
     "localidades": [
-      "San Salvador de Jujuy",
-      "Localidades que lo requieran"
+      "San Salvador de Jujuy"
     ],
     "direcciones": [
-      "San Salvador de Jujuy – Dirección a confirmar",
-      "Otras localidades según requerimiento"
+      "San Salvador de Jujuy"
     ],
     "requisitos": {
       "mayor_18": true,
@@ -211,103 +71,34 @@
       ],
       "entrega_curso": []
     },
-    "formulario": "https://forms.gle/link-inscripcion-flores-textil",
+    "formulario": "",
     "imagen": "assets/img/cursos2025/flores_textil_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "proximo"
   },
   {
     "id": 8,
     "titulo": "Sublimación Artesanal",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-09-30",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/sublimacion_artesanal_2025.webp",
     "estado": "en_curso"
   },
   {
     "id": 9,
     "titulo": "Tejido Artesanal: Dos Agujas y Crochet",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-05-31",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/tejido_artesanal_2025.webp",
     "estado": "finalizado"
   },
   {
     "id": 10,
     "titulo": "Marroquinería Funcional para Mascotas",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-07-04",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/marroquineria_mascotas_2025.webp",
     "estado": "finalizado"
   },
   {
     "id": 11,
-    "titulo": "Técnico en Reparación de Celulares – Nivel Inicial",
+    "titulo": "Arreglo y mantenimiento de celulares - Nivel basico",
     "descripcion_breve": "Aprende a reparar celulares Android multimarca, desde diagnóstico hasta cambio de módulos, pines y baterías.",
     "descripcion_completa": "Curso orientado a quienes deseen iniciarse en la reparación de celulares Android multimarca. Incluye diagnóstico de fallas, micro soldadura, mediciones con multímetro, cambio de módulos, pines y baterías, uso y manipulación de herramientas, diferencias en calidad de repuestos, y nociones de marketing y administración del negocio. Se brindan bases de microelectrónica y funcionamiento de componentes en la placa.",
     "actividades": "Prácticas de reparación aplicando lo aprendido en clase, trabajos prácticos corregidos en clase siguiente, evaluaciones para afianzar conocimientos. Los alumnos que aprueben podrán pasar al siguiente nivel.",
     "duracion_total": "1 mes",
-    "fecha_inicio": "",
-    "fecha_fin": "",
+    "fecha_inicio": "2025-09-18",
+    "fecha_fin": "2025-10-18",
     "frecuencia_semanal": 1,
     "duracion_clase_horas": [
       4
@@ -319,7 +110,7 @@
       "San Salvador de Jujuy"
     ],
     "direcciones": [
-      "Necochea 465, Local 5 – San Salvador de Jujuy"
+      "San Salvador de Jujuy"
     ],
     "requisitos": {
       "mayor_18": true,
@@ -336,151 +127,323 @@
         "Cuadernillo"
       ],
       "entrega_curso": [
-        "Cartilla con el desarrollo de cada clase"
+        "Cartilla con el desarrollo de cada clase en formato pdf"
       ]
     },
-    "formulario": "https://forms.gle/link-inscripcion-reparacion-celulares",
+    "formulario": "",
     "imagen": "assets/img/cursos2025/reparacion_celulares_2025.webp",
     "estado": "proximo"
   },
   {
     "id": 12,
     "titulo": "Albañilería para Mujeres – Prácticas en Obra",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-07-19",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/albanileria_mujeres_practicas_2025.webp",
     "estado": "finalizado"
   },
   {
     "id": 13,
     "titulo": "Panadería Artesanal",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-07-17",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/panaderia_artesanal_2025.webp",
     "estado": "finalizado"
   },
   {
     "id": 14,
     "titulo": "Cocina Regional",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-07-18",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/cocina_regional_2025.webp",
     "estado": "finalizado"
   },
   {
     "id": 15,
     "titulo": "Ayudante de Cocina con Orientación en Hotelería",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-09-25",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
-    "requisitos": {
-      "mayor_18": false,
-      "primaria_completa": false,
-      "secundaria_completa": false,
-      "otros": []
-    },
-    "materiales": {
-      "aporta_estudiante": [],
-      "entrega_curso": []
-    },
-    "formulario": "",
-    "imagen": "assets/img/cursos2025/ayudante_cocina_hoteleria_2025.webp",
     "estado": "en_curso"
   },
   {
     "id": 16,
     "titulo": "Barbería",
-    "descripcion_breve": "",
-    "descripcion_completa": "",
-    "actividades": "",
-    "duracion_total": "",
-    "fecha_inicio": "",
-    "fecha_fin": "2025-07-22",
-    "frecuencia_semanal": 0,
-    "duracion_clase_horas": [],
-    "dias_horarios": [],
-    "localidades": [],
-    "direcciones": [],
+    "estado": "finalizado"
+  },
+  {
+    "id": 17,
+    "titulo": "Soldadura",
+    "descripcion_breve": "En este curso aprenderás el uso correcto de herramientas y materiales básicos de soldadura aplicados a herrería.",
+    "descripcion_completa": "La Soldadura ofrece múltiples beneficios para los participantes: desarrollo de habilidades manuales y creativas, mejora de la autoestima y la confianza, fomentando la innovación y el diseño utilizando materiales reciclables. Se aprenderá el uso de herramientas, respetando las normas de seguridad, así como los diferentes materiales necesarios para la creación de parrillas, braseros, porta maceteros, asadores, discos, entre otros. El curso está destinado a personas mayores de edad, con el fin de aprender y ejercer lo aprendido para una salida laboral independiente.",
+    "actividades": "Se realizarán trabajos prácticos como parrillas, braseros, porta maceteros, asadores, discos y más.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-09-17",
+    "fecha_fin": "2025-11-15",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [
+      3
+    ],
+    "dias_horarios": [
+      "Miércoles de 14:00 a 17:00",
+      "Sábados de 09:00 a 12:00"
+    ],
+    "localidades": [
+      "San Salvador de Jujuy"
+    ],
+    "direcciones": [
+      "San Salvador de Jujuy"
+    ],
     "requisitos": {
-      "mayor_18": false,
+      "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": []
+      "otros": [
+        "Fotocopia de DNI",
+        "Sin conocimiento previo"
+      ]
     },
     "materiales": {
-      "aporta_estudiante": [],
+      "aporta_estudiante": [
+        "Se solicitarán a medida que avance el curso"
+      ],
       "entrega_curso": []
     },
     "formulario": "",
-    "imagen": "assets/img/cursos2025/barberia_observatorio_2025.webp",
-    "estado": "finalizado"
+    "imagen": "assets/img/cursos2025/soldadura_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 18,
+    "titulo": "Inglés Básico para Atención al Cliente",
+    "descripcion_breve": "Un curso práctico e ideal que abre las puertas de la comunicación en el mundo laboral.",
+    "descripcion_completa": "El curso de Inglés para atención al público tiene por objetivo desarrollar competencias comunicativas básicas en lengua inglesa aplicadas a situaciones reales de atención al cliente en diferentes ámbitos laborales. La propuesta ofrece aprendizaje de vocabulario específico, expresiones de cortesía y prácticas de simulación para mejorar la calidad del servicio en entornos donde la interacción con clientes de habla inglesa es frecuente. Está destinado a personas que se desempeñan o desean desempeñarse en el área de servicio y atención al cliente. Los objetivos incluyen: brindar herramientas comunicativas para atender clientes en situaciones habituales de trabajo, desarrollar vocabulario específico de servicio al cliente, practicar estructuras básicas para saludar, ofrecer ayuda, resolver consultas, manejar quejas y cerrar interacciones de manera cordial, y generar seguridad y fluidez en interacciones breves y prácticas.",
+    "actividades": "Juegos de roles en pareja y grupo, elaboración de glosario personal de frases útiles, simulación de reclamos y soluciones, grabaciones cortas de diálogos, clases interactivas con prácticas orales intensivas. Evaluación formativa mediante participación en clase y final con simulación real de atención al cliente (oral).",
+    "duracion_total": "3 meses",
+    "fecha_inicio": "2025-09-15",
+    "fecha_fin": "2025-12-17",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [
+      3
+    ],
+    "dias_horarios": [
+      "Lunes de 14:00 a 17:00",
+      "Miércoles de 14:00 a 17:00"
+    ],
+    "localidades": [
+      "Perico"
+    ],
+    "direcciones": [
+      "Oficina de Empleo de la Municipalidad de Perico"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": [
+        "Fotocopia de DNI",
+        "Sin conocimiento previo en inglés"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Cuaderno",
+        "Lapicera"
+      ],
+      "entrega_curso": [
+        "Cartilla de Inglés Básico para Atención al Cliente en PDF"
+      ]
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/ingles_basico_cliente_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 19,
+    "titulo": "Oratoria",
+    "descripcion_breve": "Un programa integral orientado al desarrollo de la inteligencia emocional y habilidades blandas esenciales para la empleabilidad y el emprendedurismo.",
+    "descripcion_completa": "Este curso propone un recorrido formativo teórico–práctico que combina aportes de la Inteligencia Emocional con el fortalecimiento de habilidades blandas fundamentales en los contextos laborales y sociales actuales. A través de una metodología participativa y experiencial, los participantes trabajarán en la gestión de emociones, comunicación efectiva, resiliencia, empatía, liderazgo y pensamiento crítico, con el objetivo de mejorar su desempeño en la búsqueda de empleo, entrevistas, liderazgo de equipos y proyectos emprendedores. Destinado a personas mayores de 18 años interesadas en optimizar su desarrollo personal y profesional, independientemente de su formación previa.",
+    "actividades": "Exposiciones dialogadas, dinámicas grupales, estudios de caso, role-playing de entrevistas y negociaciones, elaboración de CV y carta de presentación, diseño de un elevator pitch personal o emprendedor, construcción de un plan de desarrollo personal y profesional.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-09-15",
+    "fecha_fin": "2025-11-12",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [
+      2
+    ],
+    "dias_horarios": [
+      "Lunes de 16:00 a 18:00",
+      "Miércoles de 16:00 a 18:00"
+    ],
+    "localidades": [
+      "San Salvador de Jujuy"
+    ],
+    "direcciones": [
+      "San Salvador de Jujuy"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": [
+        "Fotocopia de DNI",
+        "No se requieren estudios previos"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Cuaderno o carpeta para apuntes",
+        "Dispositivo con acceso a internet"
+      ],
+      "entrega_curso": [
+        "Manual del participante (PDF)",
+        "Plantillas de CV y carta de presentación (PDF)",
+        "Materiales para ejercicios de role-playing (PDF)",
+        "Recursos digitales complementarios (PDF)"
+      ]
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/oratoria_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 20,
+    "titulo": "Construcción en Seco",
+    "descripcion_breve": "Capacitación en tabiques y cielorrasos con placas de yeso cartón: construcción más rápida, limpia y eficiente.",
+    "descripcion_completa": "Construcción en seco se refiere a los materiales y sistemas utilizados para construir estructuras sin mezclas húmedas como cemento o mortero, sino mediante elementos prefabricados que se ensamblan mecánicamente. Los componentes principales incluyen perfiles de acero galvanizado y placa de yeso. Este método es más rápido, limpio y eficiente en costos y consumo energético que la construcción tradicional. Durante el curso se enseñará a manejar herramientas de trabajo, conocer el uso correcto de materiales, aplicar normas de seguridad, y realizar prácticas de construcción de tabiques y cielorrasos. Se estudiarán las normas de seguridad, propiedades de materiales y su aplicación específica, complementado con ejercicios prácticos de armado de paredes con y sin puertas, y cielorrasos de distintas características.",
+    "actividades": "Clases teóricas sobre normas de seguridad y propiedades de materiales; prácticas de construcción de paredes divisorias y cielorrasos con placas de yeso cartón; uso correcto de herramientas y técnicas de montaje.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-09-16",
+    "fecha_fin": "2025-11-13",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [
+      3
+    ],
+    "dias_horarios": [
+      "Martes de 18:00 a 21:00",
+      "Jueves de 18:00 a 21:00"
+    ],
+    "localidades": [
+      "San Salvador de Jujuy"
+    ],
+    "direcciones": [
+      "San Martin 260 – San Salvador de Jujuy"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": [
+        "Fotocopia de DNI",
+        "Sin conocimiento previo"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Trincheta de metal",
+        "Cinta métrica",
+        "Punta Philips PH2 larga (60mm)",
+        "Pinza perra",
+        "Nivel de mano",
+        "Taladro (opcional)"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/construccion_seco_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 21,
+    "titulo": "Polarizado Vidrio Automotor",
+    "descripcion_breve": "Capacitación práctica en técnicas de corte, moldeado e instalación de láminas polarizadas en vehículos.",
+    "descripcion_completa": "El curso capacita a los participantes para desarrollar técnicas de corte, moldeado e instalación de láminas polarizadas en vidrios automotores. Está destinado al público en general, con o sin experiencia previa, que desee aprender un oficio con rápida salida laboral. Se trabajará en el reconocimiento de herramientas adecuadas y la aplicación de tips y técnicas que primero se abordan en teoría y luego en la práctica, evacuando dudas para garantizar una formación sólida. Al finalizar, el alumno contará con herramientas para insertarse en el mercado laboral o emprender su propio negocio desde casa.",
+    "actividades": "Clases teóricas sobre técnicas de polarizado, herramientas y tips prácticos; prácticas en vehículos para aplicar corte, moldeado e instalación de láminas; resolución de dudas y trabajos supervisados.",
+    "duracion_total": "1 mes y medio",
+    "fecha_inicio": "2025-09-19",
+    "fecha_fin": "2025-11-30",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [
+      3
+    ],
+    "dias_horarios": [
+      "Viernes de 18:00 a 21:00",
+      "Sábados de 09:00 a 12:00"
+    ],
+    "localidades": [
+      "San Salvador de Jujuy"
+    ],
+    "direcciones": [
+      "Ramirez de Velazco 359 – San Salvador de Jujuy"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": [
+        "Fotocopia de DNI",
+        "Con o sin experiencia en polarizados"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Papel/servilleta (rollo)",
+        "Pulverizador",
+        "Cinta métrica",
+        "Cutter",
+        "Franela naranja (preferentemente)",
+        "Tarjeta tipo SUBE en desuso",
+        "Talco común",
+        "Shampoo (para preparar solución jabonosa)",
+        "Guante de hilo"
+      ],
+      "entrega_curso": [
+        "Cartilla Polarizado Vidrio Automotor (PDF)"
+      ]
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/polarizado_automotor_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 22,
+    "titulo": "Soldadura Artística (Parte II)",
+    "descripcion_breve": "Combinación de técnicas de soldadura por arco eléctrico con carpintería básica y nuevos materiales como la madera.",
+    "descripcion_completa": "Este curso profundiza las técnicas aprendidas en la Parte I de Soldadura Artística, incorporando la combinación con carpintería básica. Se abordarán temas de seguridad e higiene en el taller, perfeccionamiento en técnicas de soldadura, fabricación de herramientas manuales, ejecución de puntos de soldadura y selección de puntos de fusión de distintos tipos de hierro. Además, se trabajará en el diseño, terminaciones y acabados aplicando tanto soldadura como carpintería. Destinado a personas mayores de 18 años con conocimientos previos en soldadura que deseen ampliar su oficio.",
+    "actividades": "Diseño y ejecución de planos a escala, selección de materiales (hierro y madera), realización de carpetas técnicas con planos y guías, construcción de trabajos finales en medidas reales, cálculo de costos de mano de obra.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-09-17",
+    "fecha_fin": "2025-11-14",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [
+      2
+    ],
+    "dias_horarios": [
+      "Miércoles de 09:00 a 11:00",
+      "Viernes de 09:00 a 11:00"
+    ],
+    "localidades": [
+      "Abra Pampa"
+    ],
+    "direcciones": [
+      "Abra Pampa y zonas aledañas"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": [
+        "Conocimiento previo en soldadura",
+        "Disponibilidad horaria para prácticas"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Carpetas",
+        "Reglas",
+        "Lápiz",
+        "Lapicera",
+        "Elementos de protección personal"
+      ],
+      "entrega_curso": [
+        "Material de lectura Soldadura Artística Parte II (PDF)"
+      ]
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/soldadura_artistica_parte2_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 23,
+    "titulo": "Barista y Arte en Latte",
+    "estado": "en_curso"
   }
 ]
