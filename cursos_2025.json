@@ -39,20 +39,14 @@
     "fecha_inicio": "2025-10-01",
     "fecha_fin": "2025-11-30",
     "frecuencia_semanal": 3,
-    "duracion_clase_horas": [
-      3
-    ],
+    "duracion_clase_horas": [3],
     "dias_horarios": [
       "Lunes de 15:00 a 18:00",
       "Martes de 15:00 a 18:00",
       "Miércoles de 15:00 a 18:00"
     ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -100,32 +94,18 @@
     "fecha_inicio": "2025-09-18",
     "fecha_fin": "2025-10-18",
     "frecuencia_semanal": 1,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Jueves de 13:00 a 17:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Jueves de 13:00 a 17:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Sin conocimientos previos en electrónica"
-      ]
+      "otros": ["Sin conocimientos previos en electrónica"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Celulares a reparar",
-        "Lapicera",
-        "Cuadernillo"
-      ],
+      "aporta_estudiante": ["Celulares a reparar", "Lapicera", "Cuadernillo"],
       "entrega_curso": [
         "Cartilla con el desarrollo de cada clase en formato pdf"
       ]
@@ -169,32 +149,18 @@
     "fecha_inicio": "2025-09-17",
     "fecha_fin": "2025-11-15",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Miércoles de 14:00 a 17:00",
-      "Sábados de 09:00 a 12:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Miércoles de 14:00 a 17:00", "Sábados de 09:00 a 12:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "Sin conocimiento previo"
-      ]
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Se solicitarán a medida que avance el curso"
-      ],
+      "aporta_estudiante": ["Se solicitarán a medida que avance el curso"],
       "entrega_curso": []
     },
     "formulario": "",
@@ -211,33 +177,18 @@
     "fecha_inicio": "2025-09-15",
     "fecha_fin": "2025-12-17",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Lunes de 14:00 a 17:00",
-      "Miércoles de 14:00 a 17:00"
-    ],
-    "localidades": [
-      "Perico"
-    ],
-    "direcciones": [
-      "Oficina de Empleo de la Municipalidad de Perico"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Lunes de 14:00 a 17:00", "Miércoles de 14:00 a 17:00"],
+    "localidades": ["Perico"],
+    "direcciones": ["Oficina de Empleo de la Municipalidad de Perico"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Fotocopia de DNI",
-        "Sin conocimiento previo en inglés"
-      ]
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo en inglés"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Cuaderno",
-        "Lapicera"
-      ],
+      "aporta_estudiante": ["Cuaderno", "Lapicera"],
       "entrega_curso": [
         "Cartilla de Inglés Básico para Atención al Cliente en PDF"
       ]
@@ -256,27 +207,15 @@
     "fecha_inicio": "2025-09-15",
     "fecha_fin": "2025-11-12",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Lunes de 16:00 a 18:00",
-      "Miércoles de 16:00 a 18:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Lunes de 16:00 a 18:00", "Miércoles de 16:00 a 18:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "No se requieren estudios previos"
-      ]
+      "otros": ["Fotocopia de DNI", "No se requieren estudios previos"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -304,27 +243,15 @@
     "fecha_inicio": "2025-09-16",
     "fecha_fin": "2025-11-13",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Martes de 18:00 a 21:00",
-      "Jueves de 18:00 a 21:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Martin 260 – San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Martes de 18:00 a 21:00", "Jueves de 18:00 a 21:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Martin 260 – San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "Sin conocimiento previo"
-      ]
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -343,35 +270,26 @@
   },
   {
     "id": 21,
-    "titulo": "Polarizado Vidrio Automotor",
-    "descripcion_breve": "Capacitación práctica en técnicas de corte, moldeado e instalación de láminas polarizadas en vehículos.",
-    "descripcion_completa": "El curso capacita a los participantes para desarrollar técnicas de corte, moldeado e instalación de láminas polarizadas en vidrios automotores. Está destinado al público en general, con o sin experiencia previa, que desee aprender un oficio con rápida salida laboral. Se trabajará en el reconocimiento de herramientas adecuadas y la aplicación de tips y técnicas que primero se abordan en teoría y luego en la práctica, evacuando dudas para garantizar una formación sólida. Al finalizar, el alumno contará con herramientas para insertarse en el mercado laboral o emprender su propio negocio desde casa.",
-    "actividades": "Clases teóricas sobre técnicas de polarizado, herramientas y tips prácticos; prácticas en vehículos para aplicar corte, moldeado e instalación de láminas; resolución de dudas y trabajos supervisados.",
+    "titulo": "Polarizado de Vidrio Automotor",
+    "descripcion_breve": "Capacitación para desarrollar técnicas de corte, moldeado e instalación de láminas polarizadas en vehículos.",
+    "descripcion_completa": "Curso destinado al público en general, con o sin experiencia previa, orientado a la rápida salida laboral. Se reconocen herramientas adecuadas y se abordan técnicas y tips en instancias teóricas que luego se llevan a la práctica, resolviendo dudas para asegurar una formación sólida que habilite la inserción laboral o el emprendimiento propio.",
+    "actividades": "Teoría (técnicas/tips y herramientas) + prácticas en vehículos aplicando corte, moldeado e instalación; resolución de dudas y trabajos supervisados.",
     "duracion_total": "1 mes y medio",
     "fecha_inicio": "2025-09-19",
     "fecha_fin": "2025-11-30",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Viernes de 18:00 a 21:00",
-      "Sábados de 09:00 a 12:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Viernes de 16:00 a 19:00", "Sábados de 09:00 a 12:00"],
+    "localidades": ["San Salvador de Jujuy"],
     "direcciones": [
-      "Ramirez de Velazco 359 – San Salvador de Jujuy"
+      "Clase teórica: San Martín 260 – San Salvador de Jujuy",
+      "Clase práctica: Ramírez de Velazco 359 – San Salvador de Jujuy"
     ],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "Con o sin experiencia en polarizados"
-      ]
+      "otros": ["Fotocopia de DNI", "Con o sin experiencia en polarizados"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -380,16 +298,14 @@
         "Cinta métrica",
         "Cutter",
         "Franela naranja (preferentemente)",
-        "Tarjeta tipo SUBE en desuso",
+        "Tarjeta tipo SUBE (en desuso)",
         "Talco común",
         "Shampoo (para preparar solución jabonosa)",
         "Guante de hilo"
       ],
-      "entrega_curso": [
-        "Cartilla Polarizado Vidrio Automotor (PDF)"
-      ]
+      "entrega_curso": ["Cartilla de Polarizado de Vidrio Automotor (PDF)"]
     },
-    "formulario": "",
+    "formulario": "https://forms.gle/link-inscripcion-polarizado",
     "imagen": "assets/img/cursos2025/polarizado_automotor_2025.webp",
     "estado": "proximo"
   },
@@ -403,19 +319,10 @@
     "fecha_inicio": "2025-09-17",
     "fecha_fin": "2025-11-14",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Miércoles de 09:00 a 11:00",
-      "Viernes de 09:00 a 11:00"
-    ],
-    "localidades": [
-      "Abra Pampa"
-    ],
-    "direcciones": [
-      "Abra Pampa y zonas aledañas"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Miércoles de 09:00 a 11:00", "Viernes de 09:00 a 11:00"],
+    "localidades": ["Abra Pampa"],
+    "direcciones": ["Abra Pampa y zonas aledañas"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
