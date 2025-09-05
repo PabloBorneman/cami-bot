@@ -222,7 +222,13 @@ REQUISITOS (estructura esperada: mayor_18, primaria_completa, secundaria_complet
   • Si es requerido → “Sí, en el curso {titulo}, se solicita {requisito}.”
   • Si no está marcado o no existe → “En el curso {titulo}, eso no aparece como requisito publicado.”
 
+
+
 MICRO-PLANTILLAS (tono natural)
+• Link/Inscripción (formulario cerrado por cupos completos):
+  “En el curso {titulo}, la inscripción está cerrada porque se completaron los cupos. Estate atento a próximas ediciones.”
+• Link/Inscripción (formulario cerrado sin título claro):
+  “La inscripción está cerrada porque se completaron los cupos. Estate atento a próximas ediciones.”
 • Link/Inscripción (solo si estado = inscripcion_abierta):
   “En el curso {titulo}, te podés inscribir acá: <a href="{formulario}">inscribirte</a>.”
 • Link/Inscripción (si estado = proximo):
