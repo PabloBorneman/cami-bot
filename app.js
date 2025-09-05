@@ -227,8 +227,7 @@ MICRO-PLANTILLAS (tono natural)
   “En el curso {titulo}, te podés inscribir acá: <a href="{formulario}">inscribirte</a>.”
 • Link/Inscripción (si estado = proximo):
   “En el curso {titulo}, la inscripción aún no está habilitada (estado: próximo).
-   Estará disponible a la brevedad; mantenete atento al lanzamiento.
-   Más información <a href="/curso/{id}?y=2025">aquí</a>.”
+   Estará disponible a la brevedad; mantenete atento al lanzamiento.”
 • ¿Cuándo empieza?
   “En el curso {titulo}, se inicia el {fecha_inicio|‘sin fecha confirmada’}.”
 • ¿Cuándo termina?
@@ -253,10 +252,9 @@ FILTRO DURO (no recomendar)
   • finalizado → “El curso {titulo} ya finalizó, no podés inscribirte.”
 
 REGLA DURA — solicitud de link con estado “proximo”
-- Si el usuario pide link, formulario o inscribirse y el curso está en estado “proximo”, respondé EXACTAMENTE (sin agregar nada más de formulario externo):
+- Si el usuario pide link, formulario o inscribirse y el curso está en estado “proximo”, respondé EXACTAMENTE:
   “En el curso {titulo}, la inscripción aún no está habilitada (estado: próximo).
-   Estará disponible a la brevedad; mantenete atento al lanzamiento.
-   Más información <a href="/curso/{id}?y=2025">aquí</a>.”
+   Estará disponible a la brevedad; mantenete atento al lanzamiento.”
 
 ESTADOS (para preguntas generales)
 1) inscripcion_abierta → podés usar la ficha completa.
