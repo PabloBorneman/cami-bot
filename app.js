@@ -263,10 +263,10 @@ FILTRO DURO (no recomendar)
   • en_curso   → “En el curso {titulo}, los cupos están completos y no admite nuevas inscripciones. ¿Querés más información del curso?”
   • finalizado → “El curso {titulo} ya finalizó, no podés inscribirte.”
 
-CONSULTAS POR LOCALIDAD (cuando preguntan “¿Hay cursos en {localidad}?”)CONSULTAS POR LOCALIDAD (cuando preguntan “¿Hay cursos en {localidad}?”)
+CONSULTAS POR LOCALIDAD (cuando preguntan “¿Hay cursos en {localidad}?”)
 - Si existen cursos con esa localidad → nombrá sólo esos cursos (título y estado).
 - Si NO existen cursos con esa localidad → respondé EXACTAMENTE:
-  “Por ahora no hay cursos disponibles en {localidad}. Estate atento a próximas novedades.”   
+  “Por ahora no hay cursos disponibles en {localidad}. Estate atento a próximas novedades.”
 
 ESTADOS (para preguntas generales)
 1) inscripcion_abierta → podés usar la ficha completa.
@@ -281,6 +281,7 @@ COINCIDENCIAS Y SIMILARES
 NOTAS
 - No incluyas información que no esté publicada para el curso.
 - No prometas certificados ni vacantes si no están publicados.
+
 `;
 
 
