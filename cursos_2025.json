@@ -67,7 +67,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSexVnHigwm36jOuuZQiPh6tcjicTmbWhQ5ytQlBRj9ADc9PLw/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/flores_textil_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "en_curso"
   },
   {
     "id": 8,
@@ -112,7 +112,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScxigARmC9m8LFPe9MzHUfBmcK3G6WGyShne4d1uElFBJQPgA/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/reparacion_celulares_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "en_curso"
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfKuX5eZ-G4iPi8i4OJJMioa5dTFw-1E0-QIdvGmyyBQgGtRg/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/soldadura_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "en_curso"
   },
   {
     "id": 18,
@@ -195,7 +195,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdGgHePKr8d0HVjV2Ryl1VhcMaMoVu8yU7qyi2cMkHiALX8IA/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/ingles_basico_cliente_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "en_curso"
   },
   {
     "id": 19,
@@ -231,7 +231,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdMc8zcgjnMFtqJaLlZl1uqyOJlGoZ4mTswZAMRNj3c5Iy22g/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/oratoria_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "en_curso"
   },
   {
     "id": 20,
@@ -266,7 +266,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScONfuvkXhIoRUvZuavzskjW-OR6Y7sdfx9ENmdHzgCsZIvuA/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/construccion_seco_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "en_curso"
   },
   {
     "id": 21,
@@ -307,7 +307,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScpvyP8strNE4rtipAU1rr_PlADePVyoAxCcIyqaVaWAQR63g/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/polarizado_automotor_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "en_curso"
   },
   {
     "id": 22,
@@ -346,7 +346,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSeMM9ARKxAvKdHIChoBT3Toc1DGYTeLwC72MejuvIvRlNW9kA/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/soldadura_artistica_parte2_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "en_curso"
   },
   {
     "id": 23,
@@ -379,6 +379,6 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdvxm8hnR2bclC_MW-d-8KIvkuyQeePGNOHmdb4OFaH2Lj5XQ/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/informatica_basica_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "en_curso"
   }
 ]
