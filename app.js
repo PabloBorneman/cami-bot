@@ -3,7 +3,7 @@
 /*──────────────────────────────────────────────────────────────────────
  * app.js – WhatsApp + Express + Socket.IO (QR en web)
  * Lógica Camila integrada (basada en index.js) – SIN modo pre-lanzamiento
- * Excepción WhatsApp: en_curso/finalizado → responder sin enlaces
+ * Excepción WhatsApp: en_curso/finalizado/cupo_completo → responder sin enlaces internos
  *──────────────────────────────────────────────────────────────────────*/
 
 require("dotenv").config();
@@ -87,6 +87,17 @@ const clamp = (s, max = 1200) => {
   return s.length > max ? s.slice(0, max) + "…" : s;
 };
 
+// normaliza estado (mapea sinónimos y acentos)
+const normalizeEstado = (s) => {
+  const v = normalize(s || "proximo").replace(/\s+/g, "_");
+  if (v === "cupos_completos" || v === "completo") return "cupo_completo";
+  if (v === "ultimos_cupos" || v === "ultimos__cupos" || v === "ultimos-cupos")
+    return "ultimos_cupos";
+  if (v === "en_curso" || v === "en" || v === "en-curso") return "en_curso";
+  if (v === "finalizado" || v === "finalizado_") return "finalizado";
+  return v;
+};
+
 const pickCourse = (c) => ({
   id: c.id,
   titulo: sanitize(c.titulo),
@@ -120,7 +131,10 @@ const pickCourse = (c) => ({
   },
   formulario: sanitize(c.formulario || ""),
   imagen: sanitize(c.imagen || ""),
-  estado: (c.estado || "proximo").toLowerCase()
+  estado: normalizeEstado(c.estado || "proximo"),
+  inscripcion_inicio: c.inscripcion_inicio || "",
+  inscripcion_fin: c.inscripcion_fin || "",
+  cupos: Number.isFinite(c.cupos) ? c.cupos : null
 });
 
 const jaccard = (a, b) => {
@@ -140,8 +154,8 @@ const topMatchesByTitle = (courses, query, k = 3) => {
     .slice(0, k);
 };
 
-// Estados elegibles (para ocultar al modelo los que no debe sugerir)
-const ELIGIBLE_STATES = new Set(["inscripcion_abierta", "proximo"]);
+// Estados elegibles (para ocultar al modelo los que no debe sugerir/listar)
+const ELIGIBLE_STATES = new Set(["inscripcion_abierta", "proximo", "ultimos_cupos"]);
 const isEligible = (c) => ELIGIBLE_STATES.has((c.estado || "proximo").toLowerCase());
 
 // Detección de mención directa del título
@@ -174,7 +188,7 @@ try {
   console.warn("⚠️  No se pudo cargar cursos_2025.json:", e.message);
 }
 
-// Solo cursos exhibibles al modelo (no en_curso / finalizado)
+// Solo cursos exhibibles al modelo (sin en_curso / finalizado / cupo_completo)
 const cursosExhibibles = cursos.filter(isEligible);
 const MAX_CONTEXT_CHARS = 18000;
 let contextoCursos = JSON.stringify(cursosExhibibles, null, 2);
@@ -183,7 +197,7 @@ if (contextoCursos.length > MAX_CONTEXT_CHARS) {
 }
 
 /*──────────────────────────────────────────────────────────────────────
- 5) Prompt del sistema (versión post-lanzamiento, sin aviso temporal)
+ 5) Prompt del sistema (versión post-lanzamiento, WhatsApp)
 ──────────────────────────────────────────────────────────────────────*/
 const systemPrompt = `
 
@@ -195,6 +209,7 @@ POLÍTICA GENERAL — Gratuidad y +18 (PRIORIDAD -2)
 - Todos los cursos requieren ser MAYORES DE 18 AÑOS.
 - Cuando el usuario consulte precio/costo, respondé literalmente: “Todos los cursos son gratuitos.”
 - Cuando pregunten por edad mínima, respondé: “Todos los cursos son para personas mayores de 18 años.”
+- Si preguntan por la web, compartí: https://academiadeoficios.jujuy.gob.ar/
 - Esta política se aplica por defecto salvo que un curso indique explícitamente lo contrario en sus datos.
 
 FORMATO Y ESTILO
@@ -223,19 +238,21 @@ REQUISITOS (estructura esperada: mayor_18, primaria_completa, secundaria_complet
   • Si no está marcado o no existe → “En el curso {titulo}, eso no aparece como requisito publicado.”
 
 MICRO-PLANTILLAS (tono natural)
-• Link/Inscripción (formulario cerrado por cupos completos):
-  “En el curso {titulo}, la inscripción está cerrada porque se completaron los cupos. Estate atento a próximas ediciones.”
-• Link/Inscripción (formulario cerrado sin título claro):
-  “La inscripción está cerrada porque se completaron los cupos. Estate atento a próximas ediciones.”
 • Link/Inscripción (solo si estado = inscripcion_abierta):
   “En el curso {titulo}, te podés inscribir acá: <a href="{formulario}">inscribirte</a>.”
+• Link/Inscripción (si estado = ultimos_cupos):
+  “En el curso {titulo}, ¡quedan pocos cupos! Te podés inscribir acá: <a href="{formulario}">inscribirte</a>.”
 • Link/Inscripción (si estado = proximo):
   “En el curso {titulo}, la inscripción aún no está habilitada (estado: próximo).
-   Estará disponible a la brevedad; mantenete atento al lanzamiento.”
+   El link de inscripción estará disponible el día {inscripcion_inicio|‘sin fecha confirmada’}.”
 • Prefijo en_curso:
   “En el curso {titulo}, los cupos están completos y no admite nuevas inscripciones. ¿Querés más información del curso?”
 • Resumen en_curso (sin enlaces, tras respuesta afirmativa):
   “En el curso {titulo}: inicio {fecha_inicio|‘sin fecha confirmada’}; sede {localidades|‘Por ahora no hay sedes confirmadas para este curso.’}; días y horarios {lista_dias_horarios|‘sin horario publicado’}; duración {duracion_total|‘no está publicada’}; requisitos {lista_requisitos|‘no hay requisitos publicados’}; actividades {actividades|‘no hay actividades publicadas’}.”
+• Prefijo cupo_completo:
+  “En el curso {titulo}, los cupos están completos y no admite nuevas inscripciones.”
+• Resumen cupo_completo (sin enlaces, tras respuesta afirmativa):
+  “En el curso {titulo}: cupos {cupos|‘sin dato de cupos’}; inicio {fechaInicio|‘sin fecha confirmada’}; sede {localidades|‘Por ahora no hay sedes confirmadas para este curso.’}; días y horarios {lista_dias_horarios|‘sin horario publicado’}; duración {duracion_total|‘no está publicada’}; requisitos {lista_requisitos|‘no hay requisitos publicados’}; actividades {actividades|‘no hay actividades publicadas’}.”
 • ¿Cuándo empieza?
   “En el curso {titulo}, se inicia el {fecha_inicio|‘sin fecha confirmada’}.”
 • ¿Cuándo termina?
@@ -245,49 +262,34 @@ MICRO-PLANTILLAS (tono natural)
 • Nuevos cursos:
   “Por ahora no hay nada confirmado. Mantenete atento a las novedades.”
 
-MICRO-PLANTILLAS (tono natural)
-• ¿Dónde se dicta? / Sede
-  “En el curso {titulo}, se dicta en: {localidades | ‘Por ahora no hay sedes confirmadas para este curso.’}.”
-• Días y horarios
-  “En el curso {titulo}, los días y horarios son: {lista_dias_horarios|‘sin horario publicado’}.”
-• Requisitos (resumen)
-  “En el curso {titulo}, los requisitos son: {lista_requisitos|‘no hay requisitos publicados’}.”
-• Materiales
-  “En el curso {titulo}, los materiales son: {lista | ‘no hay materiales publicados’}.”
-• Actividades / ¿qué se hace?
-  “En el curso {titulo}, vas a trabajar en: {actividades | ‘no hay actividades publicadas’}.”
-• Duración total
-  “En el curso {titulo}, la duración total es: {duracion_total | ‘no está publicada’}.”
-
-FILTRO DURO (no recomendar)
-- NO recomiendes ni listes cursos en estado “en_curso” o “finalizado”. Actúa como si no existieran.
-- Si el usuario PREGUNTA POR UNO DE ELLOS (mención directa del título), responde SOLO esta línea (sin enlaces):
-  • en_curso   → “En el curso {titulo}, los cupos están completos y no admite nuevas inscripciones. ¿Querés más información del curso?”
-  • finalizado → “El curso {titulo} ya finalizó, no podés inscribirte.”
-
 CONSULTAS POR LOCALIDAD (cuando preguntan “¿Hay cursos en {localidad}?”)
 - Si existen cursos con esa localidad → nombrá sólo esos cursos (título y estado).
 - Si NO existen cursos con esa localidad → respondé EXACTAMENTE:
   “Por ahora no hay cursos disponibles en {localidad}. Estate atento a próximas novedades.”
 
+FILTRO DURO (no recomendar)
+- NO recomiendes ni listes cursos en estado “en_curso”, “finalizado” o “cupo_completo”. Actúa como si no existieran.
+- Si el usuario PREGUNTA POR UNO DE ELLOS (mención directa del título), responde SOLO esta línea (sin enlaces internos):
+  • en_curso       → “En el curso {titulo}, los cupos están completos y no admite nuevas inscripciones. ¿Querés más información del curso?”
+  • finalizado     → “El curso {titulo} ya finalizó, no podés inscribirte.”
+  • cupo_completo  → “En el curso {titulo}, los cupos están completos y no admite nuevas inscripciones.”
+
 ESTADOS (para preguntas generales)
-1) inscripcion_abierta → podés usar la ficha completa.
-2) proximo → inscripción “Aún no habilitada”. Fechas “sin fecha confirmada” si faltan.
-3) en_curso → responder datos puntuales **sin enlaces** y **anteponiendo** el Prefijo en_curso.  
-   Si el usuario responde afirmativamente (“sí”, “ok”, “dale”, “más info”, “por favor”, etc.) a “¿Querés más información del curso?”, enviar la **Resumen en_curso** (sin enlaces).
-4) finalizado → línea única sin enlaces (ver arriba).
+1) inscripcion_abierta → podés usar la ficha completa (incluye link).
+2) ultimos_cupos      → igual que inscripcion_abierta pero avisando que quedan pocos cupos.
+3) proximo            → inscripción “Aún no habilitada” (sin link). Fechas “sin fecha confirmada” si faltan.
+4) en_curso           → datos puntuales **sin enlaces** y usando el Prefijo en_curso; ante “más info”, enviar Resumen en_curso.
+5) finalizado         → línea única sin enlaces.
 
 COINCIDENCIAS Y SIMILARES
 - Si hay match claro por título, responde solo ese curso.
-- Ofrece “similares” solo si el usuario lo pide o no hay match claro, y NUNCA incluyas en_curso/finalizado.
+- Ofrece “similares” solo si el usuario lo pide o no hay match claro, y NUNCA incluyas en_curso/finalizado/cupo_completo.
 
 NOTAS
 - No incluyas información que no esté publicada para el curso.
 - No prometas certificados ni vacantes si no están publicados.
 
-
 `;
-
 
 // Memoria corta por chat
 const sessions = new Map();
@@ -373,18 +375,23 @@ client.on("message", async (msg) => {
     sessions.set(chatId, state);
   }
 
-  /* ===== REGLA DURA server-side: mención directa de título y estado cerrado ===== */
+  /* ===== REGLA DURA server-side: mención directa del título con estado no exhibible ===== */
   const duroTarget = cursos.find(
     (c) =>
-      (c.estado === "en_curso" || c.estado === "finalizado") &&
+      (c.estado === "en_curso" || c.estado === "finalizado" || c.estado === "cupo_completo") &&
       isDirectTitleMention(userMessage, c.titulo)
   );
 
   if (duroTarget) {
-    const linea =
-      duroTarget.estado === "finalizado"
-        ? `El curso *${duroTarget.titulo}* ya finalizó, no podés inscribirte.`
-        : `El curso *${duroTarget.titulo}* está en cursada, no admite nuevas inscripciones.`;
+    let linea = "";
+    if (duroTarget.estado === "finalizado") {
+      linea = `El curso *${duroTarget.titulo}* ya finalizó, no podés inscribirte.`;
+    } else if (duroTarget.estado === "en_curso") {
+      linea = `En el curso *${duroTarget.titulo}*, los cupos están completos y no admite nuevas inscripciones. ¿Querés más información del curso?`;
+    } else {
+      // cupo_completo
+      linea = `En el curso *${duroTarget.titulo}*, los cupos están completos y no admite nuevas inscripciones.`;
+    }
 
     state.history.push({ role: "user", content: clamp(sanitize(userMessage)) });
     state.history.push({ role: "assistant", content: clamp(linea) });
@@ -444,7 +451,7 @@ client.on("message", async (msg) => {
     let aiResponse = rawAi
       .replace(/\*\*(\d{1,2}\s+de\s+\p{L}+)\*\*/giu, "$1")
       .replace(/\*\*(.+?)\*\*/g, "*$1*") // **texto** → *texto*
-      .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, "$1: $2") // markdown link
+      .replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, "$1: $2") // markdown link → "txt: url"
       .replace(/<a\s+href="([^"]+)"[^>]*>([^<]+)<\/a>/gi, (_m2, url, txt) => `${txt}: ${url}`) // <a> → "txt: url"
       .replace(/<\/?[^>]+>/g, ""); // quitar HTML restante
 
