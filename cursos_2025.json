@@ -89,16 +89,16 @@
   },
   {
     "id": 11,
-    "titulo": "Arreglo y mantenimiento de celulares - Nivel basico",
+    "titulo": "Arreglo y mantenimiento de celulares - Nivel básico",
     "descripcion_breve": "Aprende a reparar celulares Android multimarca, desde diagnóstico hasta cambio de módulos, pines y baterías.",
     "descripcion_completa": "Curso orientado a quienes deseen iniciarse en la reparación de celulares Android multimarca. Incluye diagnóstico de fallas, micro soldadura, mediciones con multímetro, cambio de módulos, pines y baterías, uso y manipulación de herramientas, diferencias en calidad de repuestos, y nociones de marketing y administración del negocio. Se brindan bases de microelectrónica y funcionamiento de componentes en la placa.",
     "actividades": "Prácticas de reparación aplicando lo aprendido en clase, trabajos prácticos corregidos en clase siguiente, evaluaciones para afianzar conocimientos. Los alumnos que aprueben podrán pasar al siguiente nivel.",
     "duracion_total": "1 mes",
-    "fecha_inicio": "2025-09-18",
-    "fecha_fin": "2025-10-18",
+    "fecha_inicio": "2025-10-03",
+    "fecha_fin": "2025-10-24",
     "frecuencia_semanal": 1,
-    "duracion_clase_horas": [4],
-    "dias_horarios": ["Jueves de 13:00 a 17:00"],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Viernes de 19:00 a 22:00"],
     "localidades": ["San Salvador de Jujuy"],
     "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
@@ -113,12 +113,12 @@
         "Cartilla con el desarrollo de cada clase en formato pdf"
       ]
     },
-    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScxigARmC9m8LFPe9MzHUfBmcK3G6WGyShne4d1uElFBJQPgA/viewform?usp=dialog",
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSephjfTnrHlkE-EVHYu5_9_oMd-JAgYNcIiPp5842FaDiqtfA/viewform?usp=header",
     "imagen": "assets/img/cursos2025/reparacion_celulares_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 20
+    "estado": "proximo",
+    "inscripcion_inicio": "2025-09-30T06:00",
+    "inscripcion_fin": "",
+    "cupos": 14
   },
   {
     "id": 12,
