@@ -435,9 +435,9 @@
       ],
       "entrega_curso": ["Certificado de la capacitación"]
     },
-    "formulario": "",
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdKUtgqPCcFg6DMO4hvp1lWnuX_RDy0VTDcarkFm87_eLf69g/viewform?usp=header",
     "imagen": "assets/img/cursos2025/refrigeracion_heladeras_2025.webp",
-    "estado": "proximo",
+    "estado": "inscripcion_abierta",
     "inscripcion_inicio": "2025-09-29T06:00",
     "inscripcion_fin": "",
     "cupos": 40
@@ -481,8 +481,8 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSe9RYKvQwAMWQAcJnSbbYlA0Jq7Ne57ejKVHt5o0OcplaN7oQ/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/diseño_moda_2025.webp",
-    "estado": "inscripcion_abierta",
-    "inscripcion_inicio": "2025-09-30T06:00",
+    "estado": "proximo",
+    "inscripcion_inicio": "2025-10-01T06:00",
     "inscripcion_fin": "",
     "cupos": 50
   },
@@ -513,10 +513,10 @@
         "Cartilla de Capacitación Segura de Hidrogrúas e Hidroelevadores en PDF"
       ]
     },
-    "formulario": "",
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdVJYnRpTRJJGdt1VT7QPDi2u8uAgf9Rbk8hQlrfV6-GghAgg/viewform?usp=header",
     "imagen": "assets/img/cursos2025/hidrogruas_hidroelevadores_2025.webp",
     "estado": "proximo",
-    "inscripcion_inicio": "2025-10-01T06:00",
+    "inscripcion_inicio": "2025-09-30T06:00",
     "inscripcion_fin": "",
     "cupos": 10
   }
