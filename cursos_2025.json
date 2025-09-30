@@ -113,9 +113,9 @@
         "Cartilla con el desarrollo de cada clase en formato pdf"
       ]
     },
-    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSephjfTnrHlkE-EVHYu5_9_oMd-JAgYNcIiPp5842FaDiqtfA/viewform?usp=header",
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSephjfTnrHlkE-EVHYu5_9_oMd-JAgYNcIiPp5842FaDiqtfA/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/reparacion_celulares_2025.webp",
-    "estado": "proximo",
+    "estado": "inscripcion_abierta",
     "inscripcion_inicio": "2025-09-30T06:00",
     "inscripcion_fin": "",
     "cupos": 14
@@ -481,7 +481,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSe9RYKvQwAMWQAcJnSbbYlA0Jq7Ne57ejKVHt5o0OcplaN7oQ/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/diseño_moda_2025.webp",
-    "estado": "proximo",
+    "estado": "inscripcion_abierta",
     "inscripcion_inicio": "2025-10-01T06:00",
     "inscripcion_fin": "",
     "cupos": 50
