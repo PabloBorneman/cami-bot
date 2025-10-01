@@ -519,5 +519,87 @@
     "inscripcion_inicio": "2025-09-30T06:00",
     "inscripcion_fin": "2025-10-01T012:00",
     "cupos": 10
+  },
+  {
+    "id": 28,
+    "titulo": "Peluquería Básica",
+    "descripcion_breve": "Formación integral en técnicas esenciales de peluquería: corte, coloración, peinados e higiene capilar.",
+    "descripcion_completa": "Curso teórico–práctico diseñado para iniciar o profesionalizarse en peluquería. Se abordan corte, coloración, peinados, higiene capilar y atención al cliente. Incluye clases prácticas en maniquíes y modelos reales, demostraciones de coloración, uso correcto de herramientas profesionales y evaluación final con prácticas supervisadas.",
+    "actividades": "Clases prácticas de corte y peinado; trabajos en maniquíes y modelos; demostraciones de coloración; uso y mantenimiento de herramientas; evaluación teórico–práctica final.",
+    "duracion_total": "3 meses",
+    "fecha_inicio": "2025-10-08",
+    "fecha_fin": "2025-12-26",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [3, 4],
+    "dias_horarios": [
+      "Octubre (Teoría): Miércoles y Viernes de 14:00 a 17:00",
+      "Noviembre y Diciembre (Teoría–Práctica): Miércoles y Viernes de 14:00 a 18:00"
+    ],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Peine",
+        "Tijera",
+        "Secador",
+        "Planchita",
+        "Capa de corte"
+      ],
+      "entrega_curso": [
+        "Apuntes digitales",
+        "Productos para prácticas",
+        "Maniquí de entrenamiento",
+        "Cartilla Peluquería Básica (PDF)"
+      ]
+    },
+    "formulario": "https://forms.gle/ejemplo-peluqueria",
+    "imagen": "assets/img/cursos2025/peluqueria_basica_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "",
+    "inscripcion_fin": "",
+    "cupos": 50
+  },
+  {
+    "id": 29,
+    "titulo": "Barista y Arte en Latte",
+    "descripcion_breve": "Formación práctica para preparar y servir café de alta calidad en entornos profesionales.",
+    "descripcion_completa": "Programa intensivo orientado a personas mayores de 18 años interesadas en trabajar en cafeterías, restaurantes o negocios de café. Se abordan historia y cultura del café, tipos de café y sus características, técnicas de preparación (espresso, latte, cappuccino, etc.), uso de equipos (máquina de espresso, prensa francesa, etc.), diseño y presentación de bebidas y servicio al cliente. La dinámica es 100% práctica con acompañamiento teórico. En la última clase se evalúa teoría y práctica.",
+    "actividades": "Prácticas con equipos de cafetería; preparación de espresso, latte y cappuccino; diseño y presentación de bebidas; simulaciones de atención al público; evaluación teórico–práctica final.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-10-06",
+    "fecha_fin": "2025-12-03",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [3],
+    "dias_horarios": [
+      "Comisión 1: Lunes de 10:00 a 13:00",
+      "Comisión 2: Miércoles de 16:00 a 19:00"
+    ],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Fotocopia de DNI"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Material para tomar apuntes (marco teórico)",
+        "Material para realizar prácticas"
+      ],
+      "entrega_curso": ["Cartilla de Barista (PDF)"]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-barista-ssj-2025",
+    "imagen": "assets/img/cursos2025/barista_latte_ssj_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "",
+    "inscripcion_fin": "",
+    "cupos": 100
   }
 ]
