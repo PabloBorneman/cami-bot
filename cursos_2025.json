@@ -486,7 +486,7 @@
     "inscripcion_fin": "",
     "cupos": 50
   },
-  {
+   {
     "id": 27,
     "titulo": "Capacitación Segura de Hidrogrúas e Hidroelevadores en Perico",
     "descripcion_breve": "Formación teórico-práctica en operación segura de hidrogrúas e hidroelevadores con enfoque en seguridad laboral.",
@@ -513,9 +513,9 @@
         "Cartilla de Capacitación Segura de Hidrogrúas e Hidroelevadores en PDF"
       ]
     },
-    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdVJYnRpTRJJGdt1VT7QPDi2u8uAgf9Rbk8hQlrfV6-GghAgg/viewform?usp=header",
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdfhDWqSBHXnav4H8v7CjJ0mYKTviMBSumECAmSHfczQGGmmg/viewform?usp=header",
     "imagen": "assets/img/cursos2025/hidrogruas_hidroelevadores_2025.webp",
-    "estado": "proximo",
+    "estado": "inscripcion_abierta",
     "inscripcion_inicio": "2025-09-30T06:00",
     "inscripcion_fin": "",
     "cupos": 10
