@@ -558,10 +558,10 @@
         "Cartilla Peluquería Básica (PDF)"
       ]
     },
-    "formulario": "https://forms.gle/ejemplo-peluqueria",
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfvBc9l3LzWTw_6MKgxMaZUARJjol4wlg1gs9E2bTrw9dTCVg/viewform?usp=header",
     "imagen": "assets/img/cursos2025/peluqueria_basica_2025.webp",
     "estado": "proximo",
-    "inscripcion_inicio": "",
+    "inscripcion_inicio": "2025-10-04T22:00",
     "inscripcion_fin": "",
     "cupos": 50
   },
@@ -595,10 +595,10 @@
       ],
       "entrega_curso": ["Cartilla de Barista (PDF)"]
     },
-    "formulario": "https://forms.gle/link-inscripcion-barista-ssj-2025",
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdsmcje4qqzACSmY32XL0PHDgQTAvVQXesViVgHJEdvkHqo0w/viewform?usp=header",
     "imagen": "assets/img/cursos2025/barista_latte_ssj_2025.webp",
     "estado": "proximo",
-    "inscripcion_inicio": "",
+    "inscripcion_inicio": "2025-10-04T22:00",
     "inscripcion_fin": "",
     "cupos": 100
   }
