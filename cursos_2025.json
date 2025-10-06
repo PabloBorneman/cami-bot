@@ -686,5 +686,146 @@
     "inscripcion_inicio": "",
     "inscripcion_fin": "",
     "cupos": 15
+  },
+  {
+    "id": 32,
+    "titulo": "Maquillaje Social – Humahuaca",
+    "descripcion_breve": "Curso orientado a técnicas profesionales para realzar la belleza en eventos y ocasiones especiales.",
+    "descripcion_completa": "Formación teórico–práctica para lograr acabados elegantes y profesionales en contextos sociales. Se abordan preparación de la piel, selección de productos, técnicas de difuminado, combinación de colores, delineados, aplicación de pestañas postizas y sellado del maquillaje para mayor duración. Destinado a personas que desean iniciarse o perfeccionarse, sin requerir conocimientos previos.",
+    "actividades": "Prácticas guiadas paso a paso sobre modelos o uno mismo: preparación de piel, corrección, bases y contornos, diseño de cejas, maquillajes de ojos (natural, ahumado, glam), aplicación de pestañas postizas, técnicas de fijación, ejercicios de armonización de color y armado de portfolio.",
+    "duracion_total": "2 meses y medio (10 encuentros)",
+    "fecha_inicio": "2025-10-10",
+    "fecha_fin": "2025-12-12",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Viernes de 13:00 a 16:00"],
+    "localidades": ["Humahuaca"],
+    "direcciones": ["Humahuaca"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": ["Fotocopia de DNI"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Set básico de brochas y pinceles",
+        "Paleta de maquillaje",
+        "Esponjas de maquillaje",
+        "Toalla pequeña o pañuelos descartables",
+        "Desmaquillante y algodón",
+        "Máscara de pestañas personal",
+        "Base del tono de su piel",
+        "Espejo de mesa",
+        "Cuaderno y lapicera"
+      ],
+      "entrega_curso": [
+        "Guías teóricas y prácticas en PDF",
+        "Ejemplos de diseños y modelos de referencia",
+        "Espacio acondicionado para práctica"
+      ]
+    },
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSf-SRz4Tu_S8-Bp-ydmj1dK6X4qrJ-6O5EfdeqkLWF0q0BCjQ/viewform?usp=header",
+    "imagen": "assets/img/cursos2025/maquillaje_social_humahuaca_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "",
+    "inscripcion_fin": "",
+    "cupos": 15
+  },
+  {
+    "id": 33,
+    "titulo": "Maquillaje Artístico – Pintacaritas - Humahuaca",
+    "descripcion_breve": "Aprendé técnicas de maquillaje artístico y pintacaritas para eventos infantiles y sociales, potenciando tu creatividad y salida laboral.",
+    "descripcion_completa": "Capacitación teórico–práctica para iniciarse y perfeccionarse en maquillaje artístico con foco en pintacaritas aplicado en fiestas, eventos culturales y actividades recreativas. Se trabaja uso de pinceles y esponjas, combinación de colores, aplicación de glitter y creación de diseños temáticos (animales, flores, personajes, fantasía), organización del trabajo en eventos y armado de portfolio.",
+    "actividades": "Demostraciones paso a paso; prácticas con distintos materiales, pinceles y esponjas; ejercicios de creatividad y elaboración de personajes; simulación de trabajo en eventos con gestión de tiempos y trato con niños; creación de un portfolio personal.",
+    "duracion_total": "2 meses y medio (10 encuentros)",
+    "fecha_inicio": "2025-10-10",
+    "fecha_fin": "2025-12-12",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Viernes de 09:00 a 12:00"],
+    "localidades": ["Humahuaca"],
+    "direcciones": ["Humahuaca"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": ["Fotocopia de DNI"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Set básico de pinceles y esponjas (no pelo de caballo)",
+        "Pinceles finos N°1 o N°2",
+        "Pincel redondo N°4 o N°6",
+        "Pincel plano N°6/N°8/N°10/N°12",
+        "Pinturas hipoalergénicas al agua (negro, blanco, rojo, amarillo, azul, naranja, verde, celeste, rosa)",
+        "Recipiente para agua",
+        "Toallas de mano o toallitas húmedas",
+        "Servilletas",
+        "Atomizador spray pequeño",
+        "Elementos de higiene personal",
+        "Glitter, strass, gemas y accesorios (opcionales)",
+        "Hojas de dibujo",
+        "Espejo"
+      ],
+      "entrega_curso": [
+        "Guías teóricas de Maquillaje Artístico – Pintacaritas (PDF)",
+        "Ejemplos y modelos de referencia"
+      ]
+    },
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfLmrJ23Q_8hI8mpqXKjEeseuN4eOtBzo5mEarL93aq8J8a8A/viewform?usp=header",
+    "imagen": "assets/img/cursos2025/maquillaje_artistico_pintacaritas_humahuaca_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "",
+    "inscripcion_fin": "",
+    "cupos": 15
+  },
+  {
+    "id": 34,
+    "titulo": "Cocina Regional Hotelera – Humahuaca",
+    "descripcion_breve": "Capacitación en técnicas culinarias regionales, integración de ingredientes locales, gestión de menús y normas de higiene aplicadas a hotelería y turismo.",
+    "descripcion_completa": "El curso forma para desempeñarse en contextos gastronómicos hoteleros y turísticos, integrando historia de la alimentación, identidad culinaria local y normativas de higiene. Se trabajan técnicas específicas de cocina regional, uso de ingredientes típicos, recetas tradicionales (guisos, estofados, postres), gestión de menús y criterios de diseño/armado de platos. Orientado a personas con habilidad para el trabajo en equipo, con o sin conocimientos previos.",
+    "actividades": "Prácticas de técnicas de cocción y manipulación segura; uso de utensilios; elaboración de platos regionales; integración de menús para servicio hotelero; presentación y emplatado.",
+    "duracion_total": "2 meses y medio (10 encuentros, viernes doble jornada)",
+    "fecha_inicio": "2025-10-10",
+    "fecha_fin": "2025-12-12",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [3, 3],
+    "dias_horarios": ["Viernes de 09:00 a 12:00", "Viernes de 13:00 a 16:00"],
+    "localidades": ["Humahuaca"],
+    "direcciones": ["Humahuaca"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": [
+        "Respetar normas de presentación personal e higiene",
+        "Habilidad para trabajar en equipo",
+        "Con o sin conocimiento previo",
+        "Fotocopia de DNI"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Cofia",
+        "Delantal",
+        "Repasador",
+        "Ingredientes",
+        "Cuaderno",
+        "Lapicera",
+        "Cubiertos",
+        "Platos para presentación"
+      ],
+      "entrega_curso": [
+        "Espacio equipado para prácticas",
+        "Recetarios en PDF (vía WhatsApp)"
+      ]
+    },
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfElCEkZhTVGl4YgTkz1OT1S1myRuTCsE6T47czIbZ3QmHBsg/viewform?usp=header",
+    "imagen": "assets/img/cursos2025/cocina_regional_hotelera_humahuaca_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "",
+    "inscripcion_fin": "",
+    "cupos": 15
   }
 ]
