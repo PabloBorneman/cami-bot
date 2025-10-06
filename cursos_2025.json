@@ -565,7 +565,7 @@
     "inscripcion_fin": "",
     "cupos": 50
   },
-   {
+  {
     "id": 29,
     "titulo": "Barista y Arte en Latte",
     "descripcion_breve": "Formación práctica para preparar y servir café de alta calidad en entornos profesionales.",
@@ -601,5 +601,90 @@
     "inscripcion_inicio": "2025-10-04T22:00",
     "inscripcion_fin": "",
     "cupos": 100
+  },
+  {
+    "id": 30,
+    "titulo": "Albañilería Básica para Mujeres - La Quiaca",
+    "descripcion_breve": "Curso completo desde cero para aprender técnicas de albañilería y avanzar por etapas de obra hasta la vivienda terminada.",
+    "descripcion_completa": "Formación orientada a mujeres sin experiencia previa que desean aprender albañilería desde los fundamentos hasta tareas propias de obra: elección de estructuras (columnas, vigas, bases, losa), herramientas y equipos, tipos y dosificación de mezclas, cálculo de materiales, levantamiento de paredes (medianera, exterior, interior, portante), capa aisladora y dinteles, traslado de medidas (nivel de manguera y de mano, plomada) y tipos de techos (losa, chapa, madera) con canaletas y tirantes. Incluye prácticas en campo por etapas de obra, reconocimiento de materiales y uso seguro de herramientas.",
+    "actividades": "Prácticas en campo por etapas (levantado de paredes, nivelación, aplicación de capa aisladora, colocación de aberturas, armado de techos), reconocimiento y cuidado de herramientas, ejercicios de dosificación de mezclas y cálculo de materiales.",
+    "duracion_total": "2 meses y medio (10 encuentros, viernes doble jornada)",
+    "fecha_inicio": "2025-10-10",
+    "fecha_fin": "2025-12-12",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [3, 3],
+    "dias_horarios": ["Viernes de 09:00 a 12:00", "Viernes de 13:00 a 16:00"],
+    "localidades": ["La Quiaca"],
+    "direcciones": ["CIC La Quiaca – La Quiaca"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": [
+        "Ser mujer (femenino)",
+        "Sin conocimiento previo en albañilería",
+        "Fotocopia de DNI"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Carpeta",
+        "Lapicera",
+        "Lápiz",
+        "Goma",
+        "Cuchara",
+        "Metro",
+        "Tenaza",
+        "Martillo",
+        "Balde",
+        "Nivel de mano"
+      ],
+      "entrega_curso": ["Cartilla Albañilería Básica para Mujeres (PDF)"]
+    },
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfJN0fr0WxCE7gJiMz5zF6YM5Vj7WiH3QqVEn3O2IH9KzZTYg/viewform?usp=header",
+    "imagen": "assets/img/cursos2025/albanileria_basica_mujeres_la_quiaca_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "",
+    "inscripcion_fin": "",
+    "cupos": 15
+  },
+  {
+    "id": 31,
+    "titulo": "Soldadura Básica – La Quiaca",
+    "descripcion_breve": "Introducción práctica a la soldadura/herrería para personas sin experiencia, orientada a salida laboral y microemprendimiento.",
+    "descripcion_completa": "Formación inicial en soldadura u oficios de herrería. Se ven bases del proceso de soldar, seguridad, manejo correcto de herramientas básicas y técnicas de corte y soldadura según el material. Enfocado en personas mayores de 18 años que quieran aprender para emprender, insertarse en empresas o iniciar un microemprendimiento.",
+    "actividades": "Bioseguridad; reconocimiento, uso y manipulación de herramientas; prácticas guiadas de corte y soldadura; ejercicios aplicados según material disponible.",
+    "duracion_total": "2 meses y medio (10 encuentros, viernes doble jornada)",
+    "fecha_inicio": "2025-10-10",
+    "fecha_fin": "2025-12-12",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [3, 3],
+    "dias_horarios": ["Viernes de 09:00 a 12:00", "Viernes de 13:00 a 16:00"],
+    "localidades": ["La Quiaca"],
+    "direcciones": ["CIC La Quiaca – La Quiaca"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Sin excepción de género", "Fotocopia de DNI"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Cuaderno",
+        "Lapicera",
+        "Hierros para práctica",
+        "Electrodos",
+        "Guantes de cuero",
+        "Antiparras",
+        "Disco de corte"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdAzSvYAdQ6LMLdUIKT3HugMKYLEluEIa8VLX87G-3Mxrgw0Q/viewform?usp=header",
+    "imagen": "assets/img/cursos2025/soldadura_basica_la_quiaca_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "",
+    "inscripcion_fin": "",
+    "cupos": 15
   }
 ]
