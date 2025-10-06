@@ -565,7 +565,7 @@
     "inscripcion_fin": "",
     "cupos": 50
   },
-  {
+   {
     "id": 29,
     "titulo": "Barista y Arte en Latte",
     "descripcion_breve": "Formación práctica para preparar y servir café de alta calidad en entornos profesionales.",
@@ -597,7 +597,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdsmcje4qqzACSmY32XL0PHDgQTAvVQXesViVgHJEdvkHqo0w/viewform?usp=header",
     "imagen": "assets/img/cursos2025/barista_latte_ssj_2025.webp",
-    "estado": "inscripcion_abierta",
+    "estado": "cupo_completo",
     "inscripcion_inicio": "2025-10-04T22:00",
     "inscripcion_fin": "",
     "cupos": 100
