@@ -408,7 +408,7 @@
     "inscripcion_fin": "2025-09-05T12:00",
     "cupos": 50
   },
-  {
+   {
     "id": 25,
     "titulo": "Refrigeración de Heladeras Familiares en San Pedro",
     "descripcion_breve": "Capacitación práctica para instalación, mantenimiento preventivo y reparación básica de heladeras familiares.",
@@ -437,7 +437,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdKUtgqPCcFg6DMO4hvp1lWnuX_RDy0VTDcarkFm87_eLf69g/viewform?usp=header",
     "imagen": "assets/img/cursos2025/refrigeracion_heladeras_2025.webp",
-    "estado": "inscripcion_abierta",
+    "estado": "Cursando",
     "inscripcion_inicio": "2025-09-29T06:00",
     "inscripcion_fin": "",
     "cupos": 40
@@ -517,7 +517,7 @@
     "imagen": "assets/img/cursos2025/hidrogruas_hidroelevadores_2025.webp",
     "estado": "cupo_completo",
     "inscripcion_inicio": "2025-09-30T06:00",
-    "inscripcion_fin": "2025-10-01T012:00",
+    "inscripcion_fin": "2025-10-01T12:00",
     "cupos": 10
   },
   {
@@ -562,7 +562,7 @@
     "imagen": "assets/img/cursos2025/peluqueria_basica_2025.webp",
     "estado": "cupo_completo",
     "inscripcion_inicio": "2025-10-04T22:00",
-    "inscripcion_fin": "",
+    "inscripcion_fin": "2025-10-07T08:00",
     "cupos": 50
   },
   {
@@ -597,9 +597,9 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdsmcje4qqzACSmY32XL0PHDgQTAvVQXesViVgHJEdvkHqo0w/viewform?usp=header",
     "imagen": "assets/img/cursos2025/barista_latte_ssj_2025.webp",
-    "estado": "cupo_completo",
+    "estado": "Cursando",
     "inscripcion_inicio": "2025-10-04T22:00",
-    "inscripcion_fin": "",
+    "inscripcion_fin": "2025-10-05T22:00",
     "cupos": 100
   },
   {
@@ -643,7 +643,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfJN0fr0WxCE7gJiMz5zF6YM5Vj7WiH3QqVEn3O2IH9KzZTYg/viewform?usp=header",
     "imagen": "assets/img/cursos2025/albanileria_basica_mujeres_la_quiaca_2025.webp",
-    "estado": "inscripcion_abierta",
+    "estado": "Cursando",
     "inscripcion_inicio": "2025-10-07T14:00",
     "inscripcion_fin": "",
     "cupos": 15
@@ -682,7 +682,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdAzSvYAdQ6LMLdUIKT3HugMKYLEluEIa8VLX87G-3Mxrgw0Q/viewform?usp=header",
     "imagen": "assets/img/cursos2025/soldadura_basica_la_quiaca_2025.webp",
-    "estado": "inscripcion_abierta",
+    "estado": "Cursando",
     "inscripcion_inicio": "2025-10-07T14:00",
     "inscripcion_fin": "",
     "cupos": 15
@@ -727,7 +727,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSf-SRz4Tu_S8-Bp-ydmj1dK6X4qrJ-6O5EfdeqkLWF0q0BCjQ/viewform?usp=header",
     "imagen": "assets/img/cursos2025/maquillaje_social_humahuaca_2025.webp",
-    "estado": "inscripcion_abierta",
+    "estado": "Cursando",
     "inscripcion_inicio": "2025-10-07T14:00",
     "inscripcion_fin": "",
     "cupos": 15
@@ -775,7 +775,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfLmrJ23Q_8hI8mpqXKjEeseuN4eOtBzo5mEarL93aq8J8a8A/viewform?usp=header",
     "imagen": "assets/img/cursos2025/maquillaje_artistico_pintacaritas_humahuaca_2025.webp",
-    "estado": "inscripcion_abierta",
+    "estado": "Cursando",
     "inscripcion_inicio": "2025-10-07T14:00",
     "inscripcion_fin": "",
     "cupos": 15
@@ -823,9 +823,104 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfElCEkZhTVGl4YgTkz1OT1S1myRuTCsE6T47czIbZ3QmHBsg/viewform?usp=header",
     "imagen": "assets/img/cursos2025/cocina_regional_hotelera_humahuaca_2025.webp",
-    "estado": "inscripcion_abierta",
+    "estado": "Cursando",
     "inscripcion_inicio": "2025-10-07T14:00",
     "inscripcion_fin": "",
     "cupos": 15
+  },
+  {
+    "id": 35,
+    "titulo": "Creatívate: Taller de Panadería Especial – Día de los Fieles Difuntos",
+    "descripcion_breve": "Taller intensivo de un día para elaborar ofrendas y rosquetes tradicionales de la fecha.",
+    "descripcion_completa": "Taller práctico para aprender a preparar productos regionales vinculados a la conmemoración de los Fieles Difuntos. Se trabajará la masa de ofrendas (significados de las formas, preparación, leudado, formado y horneado) y los rosquetes (preparación de masa, leudado, formado, horneado y blanqueo). Orientado a mayores de 18 años con predisposición para aprender.",
+    "actividades": "Masa de ofrenda: preparación, leudado, formado y horneado. Rosquetes: elaboración de masa, leudado, formado de piezas, horneado y blanqueo.",
+    "duracion_total": "1 día",
+    "fecha_inicio": "2025-10-31",
+    "fecha_fin": "2025-10-31",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Viernes 31-10 de 15:00 a 19:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": [
+      "Capitán Guillermón esq. Carmen de Neverán – Barrio Huaico – San Salvador de Jujuy"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": ["Predisposición para aprender"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Ingredientes",
+        "Balanza",
+        "Delantal",
+        "Cofia",
+        "2 bowls medianos",
+        "Cubiertos",
+        "Repasador",
+        "2 bandejas para hornear",
+        "Tijeras",
+        "Papel manteca",
+        "Batidor de alambre"
+      ],
+      "entrega_curso": ["Horno", "Cocina", "Mesas para trabajar"]
+    },
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScJScRzXs7vZE2mXAC-NdaGJvJyil37YSr_1ttXoJp-eRR60Q/viewform?usp=publish-editor",
+    "imagen": "assets/img/cursos2025/panaderia_fieles_difuntos_2025.webp",
+    "estado": "inscripcion_abierta",
+    "inscripcion_inicio": "",
+    "inscripcion_fin": "",
+    "cupos": null
+  },
+  {
+    "id": 36,
+    "titulo": "ALMA ARTE – Cuadro Regional para Nuestras Almitas",
+    "descripcion_breve": "Taller de creación de cuadro artesanal con foto de nuestras almitas usando técnicas mixtas y materiales regionales.",
+    "descripcion_completa": "Decoración y creación de un cuadro artesanal con la foto o impresión de nuestras almitas. Se compone una obra armónica incorporando elementos como alitas de barro/cerámica, marlos de choclo secos, flores secas, pinturas, guardas, telas, cintas, puntillas y piedras. Se aprenderán técnicas de armado como empastes, incrustaciones, decoupage y pintura. Incluye nociones de presupuesto (inversión–costos–precios) para emprender. Destinado a personas mayores de 15 años.",
+    "actividades": "Diseño de composición; preparación de base; aplicación de empastes e incrustaciones; decoupage con fotografía; pintura y terminaciones; armado del cuadro; cálculo básico de costos para venta.",
+    "duracion_total": "1 clase de 3 a 4 horas (con réplica/segunda clase opcional)",
+    "fecha_inicio": "2025-10-30",
+    "fecha_fin": "2025-10-30",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [3, 4],
+    "dias_horarios": [
+      "Jueves 30/10 de 15:00 a 18:00–19:00 (réplica)"
+    ],
+    "localidades": [],
+    "direcciones": [],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Ser mayor de 15 años"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Imagen o foto del almita",
+        "Diario, servilletas, papel de cocina",
+        "Telas blandas (remeras viejas/rotas)",
+        "Plasticola o Fortex",
+        "Pincel y pinceleta",
+        "Flores secas",
+        "Ollas/alitas de barro o cerámica",
+        "Hoja de sierra",
+        "Marlos de choclo secos",
+        "Cartón",
+        "Piedritas pequeñas (1–3 cm)",
+        "Paleta/base para pinturas",
+        "Acrílicos varios colores",
+        "Recipiente para agua",
+        "Pistola de silicona y barritas",
+        "Tijera común"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSenAgg0h9mZsAct4hTHICClGHdzVHOIDjg3G9sKNGh_WIEk3A/viewform?usp=publish-editor",
+    "imagen": "assets/img/cursos2025/alma_arte_cuadro_almitas_2025.webp",
+    "estado": "inscripcion_abierta",
+    "inscripcion_inicio": "",
+    "inscripcion_fin": "",
+    "cupos": null
   }
 ]
