@@ -1,5 +1,13 @@
 "use strict";
 
+process.on("unhandledRejection", (reason) => {
+  console.error("⚠️ unhandledRejection:", reason);
+});
+
+process.on("uncaughtException", (err) => {
+  console.error("⚠️ uncaughtException:", err);
+});
+
 /*──────────────────────────────────────────────────────────────────────
  * app.js – WhatsApp + Express + Socket.IO (QR en web)
  * Lógica Camila integrada (basada en index.js) – SIN modo pre-lanzamiento
@@ -267,28 +275,30 @@ CONSULTAS POR LOCALIDAD (cuando preguntan “¿Hay cursos en {localidad}?”)
 - Si NO existen cursos con esa localidad → respondé EXACTAMENTE:
   “Por ahora no hay cursos disponibles en {localidad}. Estate atento a próximas novedades.”
 
-REGLA GLOBAL TEMPORAL — Sin cursos integrales confirmados (PRIORIDAD 0)
+RREGLA GLOBAL TEMPORAL — Cursos en planificación 2026 (PRIORIDAD 0)
 
-- Mientras dure esta etapa, asumí que NO hay cursos integrales confirmados para 2025.
-- Ante cualquier consulta general por cursos o capacitaciones
-  (por ejemplo: “¿hay cursos?”, “qué cursos hay”, “qué están dictando”, 
-   “hay cursos en {localidad}”, “oferta de cursos”, “capacitaciones disponibles”, etc.),
-  o cuando después de aplicar las reglas habituales de búsqueda no exista ningún curso
-  integral/regular disponible para responder, usá SIEMPRE la siguiente respuesta:
+Mientras dure esta etapa, asumí que no hay cursos integrales confirmados activos.
 
-  “Por el momento no hay cursos integrales disponibles, pero sí se realizan actividades CREATIVATE.  
-  Los CREATIVATE son talleres breves, muchas veces de una sola jornada, abiertos a todo público y sin inscripción previa.  
-  Para participar solo tenés que presentarte en el lugar y horario donde se dicte la actividad.  
-  Toda la información actualizada (fechas, lugares y propuestas) se publica en nuestras redes sociales oficiales:  
-  • Facebook: (https://www.facebook.com/share/1BQSTsc9a1/?mibextid=wwXIfr)  
-  • TikTok: (https://www.tiktok.com/@sec.trabajojujuy?_t=ZM-8zSjjeReHyy&_r=1)  
-  • Instagram: (https://www.instagram.com/secre.trabajoyempleojujuy?igsh=aXRtYWc5Z29xYXc0&utm_source=qr)  
-  ¡No te lo pierdas!”
+Los cursos correspondientes al período 2026 estarán disponibles a partir del mes de febrero.
 
-- No intentes buscar, listar ni recomendar cursos 2025 mientras esta regla esté vigente.
-- No uses otras plantillas de “Nuevos cursos” ni frases como
-  “Por ahora no hay nada confirmado. Mantenete atento a las novedades.”
-- El bloque especial de CREATIVATE sigue vigente para cuando pregunten específicamente por “creativates”.
+Actualmente estamos trabajando en la definición de nuevas fechas, sedes y propuestas de capacitación para el próximo período.
+
+Ante cualquier consulta general por cursos o capacitaciones
+(por ejemplo: “¿hay cursos?”, “qué cursos hay”, “qué están dictando”,
+“hay cursos en {localidad}”, “oferta de cursos”, “capacitaciones disponibles”, etc.),
+o cuando luego de aplicar las reglas habituales de búsqueda no exista un curso integral/regular disponible para responder, usá SIEMPRE la siguiente respuesta:
+
+“En este momento estamos terminando de definir las fechas y lugares de los cursos del período 2026, que comenzarán a partir de febrero.
+Agradecemos mucho tu interés y tu paciencia 💙
+Te recomendamos estar atento/a a nuestras redes sociales oficiales, donde vamos a ir publicando todas las novedades apenas estén confirmadas:
+• Facebook: <a href="https://www.facebook.com/share/1BQSTsc9a1/?mibextid=wwXIfr" target="_blank" rel="noopener">Facebook</a>
+• Instagram: <a href="https://www.instagram.com/secre.trabajoyempleojujuy?igsh=aXRtYWc5Z29xYXc0&utm_source=qr" target="_blank" rel="noopener">Instagram</a>
+• TikTok: <a href="https://www.tiktok.com/@sec.trabajojujuy?_t=ZM-8zSjjeReHyy&_r=1" target="_blank" rel="noopener">TikTok</a>”**
+
+No intentes buscar, listar ni recomendar cursos integrales mientras esta regla esté vigente.
+
+No uses otras plantillas de “Nuevos cursos” ni frases como
+“Por ahora no hay nada confirmado” o “Mantenete atento a las novedades”.
 
 
 ### BLOQUE ESPECIAL — “curso inscripto en la Expo” (PRIORIDAD -1)
@@ -336,6 +346,10 @@ const sessions = new Map();
 const client = new Client({
   restartOnAuthFail: true,
   authStrategy: new LocalAuth(),
+  webVersionCache: {
+    type: "remote",
+    remotePath: "https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/2.2412.54.html",
+  },
   puppeteer: {
     headless: true,
     args: [
@@ -349,6 +363,7 @@ const client = new Client({
     ]
   }
 });
+
 
 // QR a la página web vía Socket.IO
 io.on("connection", (socket) => {
@@ -398,7 +413,7 @@ client.on("message", async (msg) => {
   if (!userMessage) return;
 
   if (!openai) {
-    await msg.reply("El asistente no está disponible temporalmente. Intentalo más tarde.");
+    await client.sendMessage(msg.from, "El asistente no está disponible temporalmente. Intentalo más tarde.", { sendSeen: false });
     return;
   }
 
@@ -432,7 +447,7 @@ client.on("message", async (msg) => {
     state.history.push({ role: "assistant", content: clamp(linea) });
     state.history = state.history.slice(-6);
 
-    await msg.reply(linea);
+    await client.sendMessage(msg.from, linea, { sendSeen: false });
     return;
   }
 
@@ -444,7 +459,7 @@ client.on("message", async (msg) => {
     const quick = `Formulario de inscripción: ${state.lastSuggestedCourse.formulario}`;
     state.history.push({ role: "assistant", content: clamp(quick) });
     state.history = state.history.slice(-6);
-    await msg.reply(quick);
+    await client.sendMessage(msg.from, quick, { sendSeen: false });
     return;
   }
 
@@ -495,10 +510,10 @@ client.on("message", async (msg) => {
     state.history.push({ role: "assistant", content: clamp(aiResponse) });
     state.history = state.history.slice(-6);
 
-    await msg.reply(aiResponse);
+    await client.sendMessage(msg.from, aiResponse, { sendSeen: false });
   } catch (err) {
     console.error("❌ Error al generar respuesta:", err);
-    await msg.reply("Ocurrió un error al generar la respuesta.");
+    await client.sendMessage(msg.from, "Ocurrió un error al generar la respuesta.", { sendSeen: false });
   }
 });
 
@@ -532,7 +547,7 @@ app.post("/send-message", [
     return res.status(422).json({ status: false, message: "The number is not registered" });
   }
 
-  client.sendMessage(number, message)
+  client.sendMessage(number, message, { sendSeen: false })
     .then((response) => res.status(200).json({ status: true, response }))
     .catch((err) => res.status(500).json({ status: false, response: err }));
 });
@@ -551,7 +566,7 @@ app.post("/send-media", async (req, res) => {
     });
 
   const media = new MessageMedia(mimetype, attachment, "Media");
-  client.sendMessage(number, media, { caption })
+  client.sendMessage(number, media, { caption, sendSeen: false })
     .then((response) => res.status(200).json({ status: true, response }))
     .catch((err) => res.status(500).json({ status: false, response: err }));
 });
@@ -588,7 +603,7 @@ app.post("/send-group-message", [
     chatId = group.id._serialized;
   }
 
-  client.sendMessage(chatId, message)
+  client.sendMessage(chatId, message, { sendSeen: false })
     .then((response) => res.status(200).json({ status: true, response }))
     .catch((err) => res.status(500).json({ status: false, response: err }));
 });
